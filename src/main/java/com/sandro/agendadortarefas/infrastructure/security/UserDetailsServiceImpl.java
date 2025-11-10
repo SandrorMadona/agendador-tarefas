@@ -1,14 +1,12 @@
 package com.sandro.agendadortarefas.infrastructure.security;
 
+
 import com.sandro.agendadortarefas.business.UsuarioDTO;
-import com.sandro.agendadortarefas.infrastructure.entity.Usuario;
-import com.sandro.agendadortarefas.infrastructure.repository.UsuarioRepository;
 import com.sandro.agendadortarefas.infrastructure.security.client.UsuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
 import org.springframework.stereotype.Service;
 
 @Service
